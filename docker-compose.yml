@@ -5,17 +5,17 @@ services:
     image: itzg/minecraft-server
     container_name: vault-hunters
     environment:
-      EULA: "TRUE"
-      TYPE: "AUTO_CURSEFORGE"
-      VERSION: "1.18.2"
-      MEMORY: "4G"
+      EULA: 'TRUE'
+      TYPE: 'AUTO_CURSEFORGE'
+      VERSION: '1.18.2'
+      MEMORY: '4G'
       CF_API_KEY: '$$2a$$10$$XGGBqmPcAn5gwdDT4YOHBONrocGMofjqosaOLhErvo8iAUQ2KP9ES'
-      CF_CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/download/4557217"
-      CF_SLUG: "vault-hunters-1-18-2"
-      ENABLE_ROLLING_LOGS: "true"
+      CF_CF_PAGE_URL: 'https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/download/4641781'
+      CF_SLUG: 'vault-hunters-1-18-2'
+      ENABLE_ROLLING_LOGS: 'true'
     volumes:
       - ./data:/data
     ports:
-      - "25566:25565"
-      - "19565:19565"
+      - '25566:25565'
+      - '19565:19565'
     restart: always
