@@ -10,7 +10,7 @@ services:
       VERSION: '1.18.2'
       MEMORY: '4G'
       CF_API_KEY: '$$2a$$10$$XGGBqmPcAn5gwdDT4YOHBONrocGMofjqosaOLhErvo8iAUQ2KP9ES'
-      CF_CF_PAGE_URL: 'https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/download/4641781'
+      CF_CF_PAGE_URL: 'https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/download/4661979'
       CF_SLUG: 'vault-hunters-1-18-2'
       ENABLE_ROLLING_LOGS: 'true'
     volumes:
