@@ -12,12 +12,12 @@ services:
       EULA: 'TRUE'
       TYPE: 'AUTO_CURSEFORGE'
       VERSION: '1.18.2'
-      MEMORY: '4G'
+      MEMORY: '6G'
       ENABLE_ROLLING_LOGS: 'true'
     volumes:
       - ./data:/data
-      - ./downloads:/downloads
     ports:
       - '25566:25565'
       - '19565:19565'
+      - '24454:24454/udp'
     restart: always
