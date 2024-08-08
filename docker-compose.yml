@@ -7,7 +7,6 @@ services:
     container_name: vault-hunters
     environment:
       CF_API_KEY: '$2a$10$3iDVGIPkrjqtJTc3eBOKl.OrdzFTGRSClsmL0eElP8nRaqQKZF7pO'
-      CF_CF_PAGE_URL: 'https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/download/4747283'
       CF_SLUG: 'vault-hunters-1-18-2'
       EULA: 'TRUE'
       TYPE: 'AUTO_CURSEFORGE'
